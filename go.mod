@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.13.3
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/docker/docker-credential-helpers v0.6.4
+	github.com/docker/docker-credential-helpers v0.8.2
 	github.com/fsouza/go-dockerclient v1.6.6
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/ryanuber/go-glob v0.0.0-20160226084822-572520ed46db

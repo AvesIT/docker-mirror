@@ -6,7 +6,7 @@ toolchain go1.24.1
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.32.2
+	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.33.0
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/docker/docker-credential-helpers v0.9.3
 	github.com/fsouza/go-dockerclient v1.12.0

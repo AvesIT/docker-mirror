@@ -1,6 +1,7 @@
 module github.com/AvesIT/docker-mirror
 
-go 1.23
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -8,7 +9,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.33.0
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/docker/docker-credential-helpers v0.9.3
+	github.com/docker/docker-credential-helpers v0.9.4
 	github.com/fsouza/go-dockerclient v1.12.0
 	github.com/google/go-containerregistry v0.20.3
 	github.com/google/go-github v17.0.0+incompatible

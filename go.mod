@@ -1,12 +1,13 @@
 module github.com/AvesIT/docker-mirror
 
-go 1.23
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.33.0
+	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.37.7
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/docker/docker-credential-helpers v0.9.3
 	github.com/fsouza/go-dockerclient v1.12.0
@@ -21,16 +22,16 @@ require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.39.3 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.0.2 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.34 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.10 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.10 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.1.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.0.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.1.1 // indirect
-	github.com/aws/smithy-go v1.22.2 // indirect
+	github.com/aws/smithy-go v1.23.1 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.16.3 // indirect
 	github.com/docker/cli v27.5.0+incompatible // indirect

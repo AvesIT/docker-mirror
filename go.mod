@@ -13,7 +13,7 @@ require (
 	github.com/fsouza/go-dockerclient v1.12.0
 	github.com/google/go-containerregistry v0.20.3
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/ryanuber/go-glob v0.0.0-20160226084822-572520ed46db
+	github.com/ryanuber/go-glob v1.0.0
 	github.com/sirupsen/logrus v1.9.3
 	gopkg.in/yaml.v2 v2.4.0
 )
